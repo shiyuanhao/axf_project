@@ -136,6 +136,7 @@ footer .home dd {
     line-height: 3rem;
     text-align: center;
     position: relative;
+    font-size: 50px;
 }
 .main .main-wrapper .title a{
     position: absolute;
@@ -215,5 +216,7 @@ footer .home dd {
     bottom: -0.5rem;
 }
 .main .main-wrapper .shoplist .shopitem button span{
-
+    font-size: 60px;
+    position: relative;
+    top: 10px;
 }
