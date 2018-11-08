@@ -20,5 +20,6 @@ import axf
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^',include('axf.urls',namespace='axf'))
+    url(r'^',include('axf.urls',namespace='axf')),
+    url(r'^axf/',include('axf.urls'))
 ]
